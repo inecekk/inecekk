@@ -15,6 +15,15 @@
   <img src="https://profile-counter.glitch.me/inecekk/count.svg" alt="Visitor Counter" />
 </div>
 
+<p align="center">
+  <a href="https://github.com/inecekk?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?label=Public%20Repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Finecekk&style=flat-square&color=7C3AED" /></a>
+  <a href="https://github.com/inecekk?tab=followers"><img src="https://img.shields.io/badge/dynamic/json?label=Followers&query=%24.followers&url=https%3A%2F%2Fapi.github.com%2Fusers%2Finecekk&style=flat-square&color=e879f9" /></a>
+  <a href="https://github.com/inecekk?tab=stars"><img src="https://img.shields.io/badge/dynamic/json?label=Total%20Stars&query=%24.total_stars&url=https%3A%2F%2Fapi.github.com%2Fusers%2Finecekk&style=flat-square&color=C4B5FD" /></a>
+  <img src="https://img.shields.io/badge/Arch%20Linux-1793D1?style=flat-square&logo=archlinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Niri-7C3AED?style=flat-square" />
+  <img src="https://img.shields.io/badge/Btrfs-00E5A0?style=flat-square&logo=btrfs&logoColor=white" />
+</p>
+
 ---
 
 ## 🐍 Contribution Snake
@@ -25,7 +34,7 @@
   <img alt="github contribution snake" src="https://raw.githubusercontent.com/inecekk/inecekk/main/assets/github-snake.svg" />
 </picture>
 
-> 贪吃蛇动画由 GitHub Actions 每日自动生成（`assets/github-snake.svg`），首次部署后 24 小时内出现。
+> 贪吃蛇动画由 GitHub Actions 每日自动生成（`.github/workflows/snake.yml`），首次需手动 Run workflow 一次。
 
 ---
 
@@ -43,7 +52,7 @@
 
 ## 👋 About Me
 
-- 🏠 **OS**: Arch Linux (LTS kernel 6.18) · **WM**: Niri (Wayland)
+- 🏠 **OS**: Arch Linux (linux-lts 6.18) · **WM**: Niri (Wayland)
 - 💻 **Editor**: VS Code · **Shell**: bash + tmux
 - 🎨 **Theme**: Dark purple / rainbow gradient focus ring
 - 🎵 **Music**: go-musicfox (lyrics + visualizer) · **Radio**: yes
@@ -58,14 +67,21 @@
 
 | Component | Choice |
 |-----------|--------|
-| Distribution | Arch Linux |
-| Kernel | linux-lts (6.18 LTS) |
+| Distribution | Arch Linux (rolling) |
+| Kernel | linux-lts 6.18 (LTS, amd-ucode) |
+| CPU | AMD Ryzen 7 6800H (8C/16T, Rembrandt) |
+| GPU | AMD Radeon 680M (RDNA2, iGPU) |
+| Memory | 16 GB DDR5 |
+| Storage | 476.9 GB NVMe (btrfs: @ / @home / @log / @pkg / @.snapshots) |
 | Display Server | Wayland (niri compositor) |
-| Terminal | foot (alpha 0.9) |
+| Terminal | foot (alpha 0.9, JetBrainsMono Nerd Font) |
 | Input Method | fcitx5 + rime (双拼) |
 | Network | iwd + systemd-networkd |
 | Firewall | none (home LAN) |
+| Audio | PipeWire 1.6.8 + USB DAC |
+| Bootloader | systemd-boot (LTS default) |
 | Snapshot | snapper (btrfs @.snapshots) |
+| Backup | dotfiles/wallpapers → GitHub daily 13:00 |
 
 ### 🌤️ Weather
 
@@ -82,7 +98,7 @@
 ### Skill Icons
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,arch,bash,git,github,vim,neovim,rust,python,c,html,css,js,docker&perline=7" alt="skill icons" />
+  <img src="https://skillicons.dev/icons?i=linux,arch,bash,git,github,vim,neovim,rust,python,c,html,css,js,docker,neovim,regex,md,cmake&perline=9" alt="skill icons" />
 </p>
 
 > 图标由 skillicons.dev 生成，支持任意组合，可自行增删。
@@ -98,6 +114,7 @@
   <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/-Vim-019733?style=flat-square&logo=vim&logoColor=white" />
   <img src="https://img.shields.io/badge/-Tmux-1BB91F?style=flat-square&logo=tmux&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Neovim-57A143?style=flat-square&logo=neovim&logoColor=white" />
 </span>
 
 ### Languages
@@ -121,6 +138,9 @@
   <img src="https://img.shields.io/badge/-Foot-3B4252?style=flat-square" />
   <img src="https://img.shields.io/badge/-fcitx5-0078D4?style=flat-square" />
   <img src="https://img.shields.io/badge/-Btrfs-00E5A0?style=flat-square&logo=btrfs&logoColor=white" />
+  <img src="https://img.shields.io/badge/-systemd--boot-7C3AED?style=flat-square" />
+  <img src="https://img.shields.io/badge/-Zen%20Browser-7C3AED?style=flat-square" />
+  <img src="https://img.shields.io/badge/-go--musicfox-1DB954?style=flat-square" />
 </span>
 
 ---
@@ -150,13 +170,13 @@
 
 ---
 
-## 📈 Metrics
+## 📈 Metrics (Full)
 
 <div align="center">
-  <img src="https://metrics.lecoq.io/inecekk?template=classic&config.timezone=Asia%2FShanghai" alt="GitHub Metrics" />
+  <img src="https://metrics.lecoq.io/inecekk?template=classic&base=header%2Cactivity%2Ccommunity%2Crepositories%2Cmetadata&base.indepth=false&base.hireable=false&base.skip=false&config.timezone=Asia%2FShanghai&config.animated=true" alt="GitHub Metrics" />
 </div>
 
-> 想要更多模块（日历、语言、成就、活跃度等），到 https://metrics.lecoq.io/inecekk 生成专属配置后替换。
+> 想要更多模块（日历、语言、成就、活跃度等），到 https://metrics.lecoq.io/inecekk 生成专属配置后替换。当前已启用 base 全部模块 + 动画。
 
 ---
 
