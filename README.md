@@ -6,11 +6,18 @@
   </picture>
 </div>
 
+<!-- 彩虹流动标题（自定义 SVG 动画，呼应 niri 彩虹焦点环主题） -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/inecekk/inecekk/main/assets/rainbow-title.svg" alt="inecekk rainbow title" width="65%" />
+</div>
+
 <div align="center">
   <img src="https://profile-counter.glitch.me/inecekk/count.svg" alt="Visitor Counter" />
 </div>
 
 ---
+
+## 🐍 Contribution Snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/inecekk/inecekk/main/assets/github-snake-dark.svg" />
@@ -18,7 +25,19 @@
   <img alt="github contribution snake" src="https://raw.githubusercontent.com/inecekk/inecekk/main/assets/github-snake.svg" />
 </picture>
 
-> 注：贪吃蛇动画由 GitHub Actions 每日自动生成（`assets/github-snake.svg`），首次部署后 24 小时内出现。
+> 贪吃蛇动画由 GitHub Actions 每日自动生成（`assets/github-snake.svg`），首次部署后 24 小时内出现。
+
+---
+
+## 🧊 3D Contribution
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/inecekk/inecekk/main/profile-3d-contrib/profile-night-green.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/inecekk/inecekk/main/profile-3d-contrib/profile-green.svg" />
+  <img alt="3D contribution" src="https://raw.githubusercontent.com/inecekk/inecekk/main/profile-3d-contrib/profile-night-green.svg" />
+</picture>
+
+> 3D 贡献图由 GitHub Actions 每日 18:30 自动生成（`.github/workflows/profile-3d.yml`），首次需手动 Run workflow 一次。
 
 ---
 
@@ -48,11 +67,28 @@
 | Firewall | none (home LAN) |
 | Snapshot | snapper (btrfs @.snapshots) |
 
+### 🌤️ Weather
+
+<div align="center">
+  <img src="https://wttr.in/Shanghai.png?m" alt="Shanghai weather" />
+</div>
+
+> 天气图来自 wttr.in，实时更新。城市可改成你所在的城市（拼音）。
+
 ---
 
 ## 🛠️ Tech Stack
 
+### Skill Icons
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=linux,arch,bash,git,github,vim,neovim,rust,python,c,html,css,js,docker&perline=7" alt="skill icons" />
+</p>
+
+> 图标由 skillicons.dev 生成，支持任意组合，可自行增删。
+
 ### System & Tools
+
 <span>
   <img src="https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
   <img src="https://img.shields.io/badge/-Arch%20Linux-1793D1?style=flat-square&logo=archlinux&logoColor=white" />
@@ -65,6 +101,7 @@
 </span>
 
 ### Languages
+
 <span>
   <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/-Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
@@ -77,6 +114,7 @@
 </span>
 
 ### Desktop
+
 <span>
   <img src="https://img.shields.io/badge/-Wayland-FFFFFF?style=flat-square&logo=wayland&logoColor=black" />
   <img src="https://img.shields.io/badge/-Niri-7C3AED?style=flat-square" />
@@ -112,16 +150,59 @@
 
 ---
 
-## 📁 Repositories
+## 📈 Metrics
+
+<div align="center">
+  <img src="https://metrics.lecoq.io/inecekk?template=classic&config.timezone=Asia%2FShanghai" alt="GitHub Metrics" />
+</div>
+
+> 想要更多模块（日历、语言、成就、活跃度等），到 https://metrics.lecoq.io/inecekk 生成专属配置后替换。
+
+---
 
 <!--
-  这里可以放你常用的仓库卡片，例如：
-  <div align="center">
-    <a href="https://github.com/inecekk/arch-config">
-      <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=inecekk&repo=arch-config&theme=graywhite&bg_color=1a1b26&text_color=c4b5fd&icon_color=e879f9&hide_border=true" />
-    </a>
-  </div>
+## 🎵 Now Playing
+
+需要 Spotify UID（在 Spotify 账号页面获取）后取消注释：
+
+<div align="center">
+  <img src="https://spotify-github-profile.vercel.app/api/view?uid=你的UID&cover_image=true&theme=default&bar_color=e879f9&bar_color_cover=false" alt="Spotify Now Playing" />
+</div>
 -->
+
+<!--
+## 📡 Social Stats
+
+填入对应的 ID 后取消注释（stats.justsong.cn）：
+
+<div align="center">
+  <img src="https://stats.justsong.cn/api/bilibili/?id=你的B站UID" alt="Bilibili stats" />
+  <img src="https://stats.justsong.cn/api/zhihu/?id=你的知乎URL后缀" alt="Zhihu stats" />
+</div>
+-->
+
+<!--
+## 📝 Latest Blog Posts
+
+如果有博客（Medium / 自建 RSS），取消注释并替换：
+
+<div align="center">
+  <img src="https://github-readme-medium-recent-article?user=你的Medium用户名" alt="Latest blog posts" />
+</div>
+-->
+
+---
+
+## 📁 Repositories
+
+<div align="center">
+  <a href="https://github.com/inecekk/arch-config">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=inecekk&repo=arch-config&theme=graywhite&bg_color=1a1b26&text_color=c4b5fd&icon_color=e879f9&hide_border=true" />
+  </a>
+  <a href="https://github.com/inecekk/inecekk">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=inecekk&repo=inecekk&theme=graywhite&bg_color=312e81&text_color=c4b5fd&icon_color=e879f9&hide_border=true" />
+  </a>
+</div>
 
 ---
 
