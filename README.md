@@ -21,20 +21,20 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/inecekk/inecekk/main/assets/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/inecekk/inecekk/main/assets/github-snake.svg" />
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/inecekk/inecekk/main/assets/github-snake.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/inecekk/inecekk/main/assets/github-snake-snakes.svg" />
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/inecekk/inecekk/main/assets/github-snake-snakes.svg" />
 </picture>
 
-> 贪吃蛇动画由 GitHub Actions 每日自动生成（`.github/workflows/snake.yml`），首次需手动 Run workflow 一次。
+> 贪吃蛇动画长度随贡献量动态变化，由 GitHub Actions 每日自动生成（`.github/workflows/snake.yml`），首次需手动 Run workflow 一次。
 
 ---
 
 ## 🧊 3D Contribution
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/inecekk/inecekk/main/profile-3d-contrib/profile-night-green.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/inecekk/inecekk/main/profile-3d-contrib/profile-green.svg" />
-  <img alt="3D contribution" src="https://raw.githubusercontent.com/inecekk/inecekk/main/profile-3d-contrib/profile-night-green.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/inecekk/inecekk/main/profile-3d-contrib/profile-night-rainbow.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/inecekk/inecekk/main/profile-3d-contrib/profile-rainbow.svg" />
+  <img alt="3D contribution" src="https://raw.githubusercontent.com/inecekk/inecekk/main/profile-3d-contrib/profile-night-rainbow.svg" />
 </picture>
 
 > 3D 贡献图由 GitHub Actions 每日 18:30 自动生成（`.github/workflows/profile-3d.yml`），首次需手动 Run workflow 一次。

@@ -5,6 +5,11 @@ on:
     - cron: "30 18 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,9 +17,16 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
+        with:
+          username: ${{ github.repository_owner }}
+          # 使用 rainbow 主题，视觉效果更绚丽
+          theme: rainbow
+          show-3d: true
+          color: rainbow
+          dark: true
+          size: 400
+          # 增强 3D 渲染效果
+          depth: 3
       - name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"
