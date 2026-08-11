@@ -43,24 +43,12 @@
 
 ## 👋 About Me
 
-- 🏠 **OS**: Arch Linux (linux-lts 6.18) · **WM**: Niri (Wayland)
 - 💻 **Editor**: VS Code · **Shell**: bash + tmux
 - 🎨 **Theme**: Dark purple / rainbow gradient focus ring
 - 🎵 **Music**: go-musicfox (lyrics + visualizer) · **Radio**: yes
-- 🌐 **Browser**: Zen Browser
-- 📁 **FM**: PCManFM · **Launcher**: noctalia
-- 🔒 **Security**: snapper btrfs snapshots + daily auto backup to GitHub
 - 🧠 **AI**: Miyu (my personal assistant)
 
 ---
-
-### 🌤️ Weather
-
-<div align="center">
-  <img src="https://wttr.in/Shanghai.png?m" alt="Shanghai weather" />
-</div>
-
-> 天气图来自 wttr.in，实时更新。城市可改成你所在的城市（拼音）。
 
 ---
 
