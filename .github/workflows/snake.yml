@@ -14,21 +14,20 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      # 1. 检出代码
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. 生成贪吃蛇 SVG
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: inecekk
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/github-snake-snakes.svg?palette=snakes&color_snakes=#e879f9&color_dots=#c4b5fd
+            dist/github-snake.svg?length=9
+            dist/github-snake-dark.svg?palette=github-dark&length=9
+            dist/github-snake-snakes.svg?palette=snakes&color_snakes=#e879f9&color_dots=#c4b5fd&length=9
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 3. 直接通过 Git 提交并推送到当前分支（避免 gh-pages 分支冲突）
       - name: Push snake to repository
         run: |
           git config user.name "github-actions[bot]"
