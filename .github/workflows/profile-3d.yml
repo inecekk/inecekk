@@ -15,18 +15,16 @@ jobs:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
     steps:
-      - uses: actions/checkout@v3
+      # 1. 升级 checkout 到 v4，解决 Node.js 20 弃用警告
+      - uses: actions/checkout@v4
+
+      # 2. 修正 Action：去掉所有错误的 with 参数，仅保留通过环境变量传入的 USERNAME
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        with:
-          username: ${{ github.repository_owner }}
-          # 使用 rainbow 主题，视觉效果更绚丽
-          theme: rainbow
-          show-3d: true
-          color: rainbow
-          dark: true
-          size: 400
-          # 增强 3D 渲染效果
-          depth: 3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      # 3. 提交并推送生成的 3D 图
       - name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"
